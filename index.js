@@ -66,7 +66,7 @@ module.exports = function drawCandleStick(input) {
         let low  = input.low[i];
         let close= input.close[i];
         let height = Math.abs(y(open) - y(close));
-        height = height > 0 ? height : .01;
+        height = height > 0 ? height : 2;
         let xValue = leftOffset + ((widthofBars + gapBetweenBars)  * i);
         let colo;
         let start;
