@@ -1,6 +1,6 @@
 {
   "name": "draw-candlestick",
-  "version": "1.0.2",
+  "version": "2.0.2",
   "description": "Repository to test candlestick pattern data. Give an input and it will return an buffer of the drawn candlestick pattern",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/anandanand84/draw-candlestick#readme",
   "dependencies": {
-    "canvas": "^1.6.2",
+    "canvas": "^2.0.0-alpha.15",
     "d3": "^4.4.0",
     "d3-scale": "^1.0.4"
   }

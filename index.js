@@ -37,10 +37,12 @@ module.exports = function drawCandleStick(input) {
     var width  = 400;
     var height  = 400;
 
-    var Canvas = require('canvas')
+    var Canvas = require('canvas').Canvas
         , Image = Canvas.Image
         , canvas = new Canvas(width, height)
         , ctx = canvas.getContext('2d');
+
+        console.log(Canvas);
 
     var d3 = require('d3');
     var d3Scale = require("d3-scale")
